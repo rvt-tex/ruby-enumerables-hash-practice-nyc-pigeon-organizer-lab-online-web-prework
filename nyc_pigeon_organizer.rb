@@ -20,7 +20,14 @@ counter = 0
 }
 
   
-  
+  while pigeon_data [counter] do 
+  puts pigeon_data[counter]
+  counter += 1 
+end 
+
+pigeon_data.each do |color, gender, lives|
+  puts "#{color}; #{gender}; #{lives}""
+end
   
   
   
